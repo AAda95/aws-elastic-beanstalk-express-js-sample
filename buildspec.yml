@@ -10,13 +10,11 @@ phases:
   
   pre_build:
     commands:
-      - echo Running pre-build phase...
+      - echo Pre-build phase...
   
   build:
     commands:
-      - echo Build started on `date`
-      - echo Building the application...
-      - npm run build
+      - echo Build phase - no transpilation needed for this app
   
   post_build:
     commands:
